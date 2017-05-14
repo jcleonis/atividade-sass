@@ -1,0 +1,7 @@
+@mixin menu-item-hover($bgcolor,$fontcolor)         
+{
+    &:hover{
+        background-color: $bgcolor;
+        color: $fontcolor;
+    }
+}
